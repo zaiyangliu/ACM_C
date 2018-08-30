@@ -1,0 +1,20 @@
+Coin Test
+时间限制：3000 ms  |  内存限制：65535 KB 
+难度：1
+
+描述 
+As is known to all,if you throw a coin up and let it droped on the desk there are usually three results. Yes,just believe what I say ~it can be the right side or the other side or standing on the desk, If you don't believe this,just try In the past there were some famous mathematicians working on this .They repeat the throwing job once again. But jacmy is a lazy boy.He is busy with dating or playing games.He have no time to throw a single coin for 100000 times. Here comes his idea,He just go bank and exchange thousands of dollars into coins and then throw then on the desk only once. The only job left for him is to count the number of coins with three conditions.
+He will show you the coins on the desk to you one by one. Please tell him the possiblility of the coin on the right side as a fractional number if the possiblity between the result and 0.5 is no larger than 0.003. BE CAREFUL that even 1/2，50/100,33/66 are equal only 1/2 is accepted ! if the difference between the result and 0.5 is larger than 0.003,Please tell him "Fail".Or if you see one coin standing on the desk,just say "Bingo" any way.
+
+输入
+Three will be two line as input.
+The first line is a number N(1<N<65536)
+telling you the number of coins on the desk.
+The second line is the result with N litters.The letter are "U","D",or "S","U" means the coin is on the right side. "D" means the coin is on the other side ."S" means standing on the desk.
+输出
+If test successeded,just output the possibility of the coin on the right side.If the test failed please output "Fail",If there is one or more"S",please output "Bingo"
+样例输入
+6
+UUUDDD
+样例输出
+1/2
